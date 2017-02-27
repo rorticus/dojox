@@ -44,8 +44,6 @@ return declare("dojox.layout.ContentPane", ContentPane, {
 	//		NOTE this name might change in the near future
 	scriptHasHooks: false,
 
-	ioMethod: xhrUtil.get,
-
 	ioArgs: {},
 
 	onExecError: function(/*Event*/ e){
